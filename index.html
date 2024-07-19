@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // push
+
+        let arr=[1,2,3,4,5,6,7,8]
+        arr.push(9)
+        console.log(arr);
+
+        // pop
+
+        let arr1=[1,2,3,4,5,6,7]
+        arr1.pop();
+        console.log(arr1);
+
+        // shift
+        let cars=["BMW","AUDI","RR","VOLOVO"];
+        cars.shift();
+        console.log(cars);
+
+        // unshift
+
+
+        let cars1=["AUDI","RR","VOLOVO"];
+        cars1.unshift("BMW","THAR");
+        console.log(cars1);
+
+
+
+        // array Spreading
+        let arr5 = [1, 2, 3];
+        let arr6 = [4, 5];
+
+        arr5 = [...arr5, ...arr6];
+        console.log(arr5);
+     // Destruction
+    let arr8=[1,2,3,4];
+    let [a,b,c,d]=arr8;
+    console.log(arr8);
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+
+    // ///////////////////////////array Flatten
+
+    let arr11=[1,2,[3,4,[5]],6,7]
+    console.log(arr11);
+    let arr12=arr11.flat(1);
+    console.log(arr12);
+
+    let arr13=arr11.flat(2);
+    console.log(arr13);
+
+
+
+    </script>
+</body>
+</html>
